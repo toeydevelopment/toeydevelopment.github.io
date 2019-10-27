@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+  font-family: "Prompt", sans-serif;
+  width: 100%;
+}
+/* Start Header Style Section */
+.navbar {
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    position: fixed;
+    z-index: 99;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+    background-color: white;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 14px 17px;
+    margin: 0;
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 0 1.5rem;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #333333;
+}
+.navbar ul li a:hover {
+    text-decoration: none;
+    color: #0056b3;
+    padding-bottom: 5px;
+    border-bottom: 5px solid #213A8F;
+}
+/* End Header Style Section */
