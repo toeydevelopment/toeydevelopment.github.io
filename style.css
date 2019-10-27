@@ -48,6 +48,7 @@ html {
 
 main {
   margin: 0 5rem;
+  padding-top: 60px; 
 }
 
 @media (max-width: 577px) {
