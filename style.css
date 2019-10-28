@@ -48,7 +48,7 @@ html {
 
 main {
   margin: 0 5rem;
-  padding-top: 60px; 
+  margin-top: 0.5rem;
 }
 
 @media (max-width: 577px) {
@@ -57,25 +57,77 @@ main {
   }
 }
 .banner {
-  background: black;
-  padding-top: 60px;
+  padding-top: 50px;
+}
+
+.banner .cover-img-1 {
+  background: url("https://www.ชิมช้อปใช้.com/img/hero_banner/banner-left.png") no-repeat;
+}
+@media (max-width: 577px) {
+  .banner .cover-img-1 {
+    background: url("https://www.ชิมช้อปใช้.com/img/hero_banner/banner-left-s.png") no-repeat;
+  }
+}
+.banner .cover-img-2 {
+  background: url("https://www.ชิมช้อปใช้.com/img/hero_banner/banner-center.png") no-repeat;
+}
+@media (max-width: 577px) {
+  .banner .cover-img-2 {
+    background: url("https://www.ชิมช้อปใช้.com/img/hero_banner/banner-center-s.png") no-repeat;
+  }
+}
+.banner .cover-img-2 .logo-box {
+  padding: 20px;
+  width: 280px;
+  margin: auto;
+}
+@media (max-width: 769px) {
+  .banner .cover-img-2 .logo-box {
+    width: 146px;
+    height: 173px;
+  }
+}
+@media (max-width: 577px) {
+  .banner .cover-img-2 .logo-box {
+    width: 110px;
+    height: 131px;
+    padding: 0;
+  }
+}
+.banner .cover-img-2 .logo-box img {
   width: 100%;
-  height: 35%;
+  height: 100%;
 }
-.cover-img-1 {
-  margin: 0;
-  padding: 0;
-  background: url("./assets/imgs/left.png") no-repeat;
+.banner .cover-img-3 {
+  background: url("https://www.ชิมช้อปใช้.com/img/hero_banner/banner-right.png") no-repeat;
 }
-.cover-img-2 {
-  margin: 0;
-  padding: 0;
-  background: url("./assets/imgs/center.png") no-repeat;
+@media (max-width: 577px) {
+  .banner .cover-img-3 {
+    background: url("https://www.ชิมช้อปใช้.com/img/hero_banner/banner-right-s.png")" no-repeat;
+  }
 }
-.cover-img-3 {
-  margin: 0;
-  padding: 0;
-  background: url("./assets/imgs/right.png") no-repeat;
+.banner .cover-img-1,
+.banner .cover-img-2,
+.banner .cover-img-3 {
+  height: 350px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+@media (max-width: 769px) {
+  .banner .cover-img-1,
+  .banner .cover-img-2,
+  .banner .cover-img-3 {
+    height: 242px;
+  }
+}
+@media (max-width: 577px) {
+  .banner .cover-img-1,
+  .banner .cover-img-2,
+  .banner .cover-img-3 {
+    height: 221px;
+  }
 }
 /* 
   End Banner Style Section 
@@ -83,6 +135,10 @@ main {
 
 .since {
   text-align: center;
+}
+
+#since__duration {
+  font-weight: bold;
 }
 
 @media (max-width: 577px) {
@@ -101,7 +157,7 @@ main {
 .period .line {
   color: #000;
   width: 100%;
-  position:absolute;
+  position: absolute;
   bottom: 30px;
   z-index: -1;
   border-bottom: 1px solid grey;
@@ -242,6 +298,7 @@ main {
   display: inline-block;
   height: 200px;
   vertical-align: middle;
+  padding: 0 3rem;
 }
 
 @media (max-width: 577px) {
