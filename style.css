@@ -306,15 +306,20 @@ main {
     text-align: left;
     display: block;
     height: 100%;
-    padding: 1rem 0;
+    padding: 0.5rem 0;
     /* margin: 0 1.5rem; */
     vertical-align: middle;
+  }
+  .footer ul li h4 {
+    font-size: 15px;
+  }
+  .footer ul li p {
+    font-size: 14px;
   }
 }
 
 footer {
   background: #213a8f;
-  padding: 1rem 0;
   margin: 0;
 }
 footer ul {
@@ -325,11 +330,11 @@ footer ul {
 
 footer ul li {
   display: inline-block;
-  padding: 0 0rem;
+  padding: 8px 16px 8px 0;
   height: 100%;
   width: 20%;
   color: white;
-  font-size: 1rem;
+  font-size: 14px;
 }
 
 @media (max-width: 577px) {
@@ -340,8 +345,8 @@ footer ul li {
     display: block;
     height: 100%;
     text-align: left;
-    font-size: 14px;
+    font-size: 12px;
     width: 100%;
-    padding: 1rem 1rem;
+    padding: 0.5rem 2rem;
   }
 }
