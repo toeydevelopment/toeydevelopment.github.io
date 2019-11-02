@@ -232,6 +232,7 @@ main {
   .period__box {
     width: 100%;
     position: static;
+    background-color: #fbbc33;
   }
   .period__box h4 {
     font-size: 16px;
